@@ -1,0 +1,131 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .tab-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .tab-link {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tab-link:hover {
+    color: #000;
+  }
+  
+  .tab-link.active {
+    color: #000;
+    border-bottom: 2px solid #000;
+  }
+  
+  .tab-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  /* Dashboard.css */
+
+/* Container for the entire dashboard */
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the page heading */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Tab navigation styling */
+.tab-navigation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-link {
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.tab-link:hover {
+  color: #007bff;
+}
+
+.tab-link.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Profile section styling */
+.profile-container {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.profile-icon {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.profile-dropdown p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.profile-dropdown button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  font-size: 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-dropdown button:hover {
+  background-color: #ff1a1a;
+}
+
+/* Tab content area styling */
+.tab-content {
+  padding: 20px;
+}
